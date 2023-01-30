@@ -14,3 +14,7 @@ console.log(typeof d);
 // String to Boolean
 let e = "true";
 console.log(typeof Boolean(e));
+
+
+var value;
+console.log(typeof(value));

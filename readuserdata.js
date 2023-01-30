@@ -3,4 +3,7 @@
 
 const readlineSync = require('readline-sync');
 
-readlineSync.question("May i know your name ? ");
+// now the below user name will store the answer given for this question
+const userName = readlineSync.question("May i know your name ? ");
+
+console.log(`User's name is : ${userName}`);
