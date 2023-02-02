@@ -5,6 +5,7 @@ let fullname = "My full name is : "+  firstname + lastname;
 console.log(fullname);
 
 // concatination is very traditional system
+
 // Template Literal is used now a days mostly
 let finalname = `My Full name is ${firstname}${lastname}`;
 console.log(finalname);
