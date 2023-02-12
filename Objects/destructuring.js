@@ -4,7 +4,15 @@ const Obj = {
     course : "Web Dev",
     add : {
         city : "Sirsa",
-        state : "Haryana"
+        state : {
+            first : "MH",
+            second: "BR",
+            third : "GA",
+            sevenSister:{
+                firstss : "Mizoram",
+                secondss : "Nagaland"
+            }
+        }
     },
     courses : ["HTML", "CSS", "JS", "ReactJS"]
 };
@@ -20,8 +28,14 @@ const Obj = {
 // console.log(rest);
 
 // third way with changing the names(userd for shortening the names of object variables)
-let{name :username, courses: mycourses} = Obj;
+// let{name :username, courses: mycourses} = Obj;
 
-console.log(username, mycourses);
+// console.log(username, mycourses);
 
-// fourth way
+// fourth way to sestructure the nested objects
+// let{add: {city,state}} = Obj;
+// console.log(city, state);
+
+// fifth way multiple nesting destructuring
+let{ add:{state:{sevenSister:{firstss,secondss}} } } = Obj;
+console.log(`${firstss} ${secondss}`);
