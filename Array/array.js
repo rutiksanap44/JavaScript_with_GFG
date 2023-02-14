@@ -13,4 +13,5 @@ for(let indices in names){
 for(let indeces1 in names){
     console.log(names[indeces1]);
 }
+
 console.log(names.pop());

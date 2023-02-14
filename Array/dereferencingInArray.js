@@ -1,4 +1,4 @@
-var arr1 = [1,2,3,4];
+var arr1 = [1, 2, 3, 4];
 var arr2 = arr1;
 // here when you do changes to arr 2 it will get reflected in arr1
 // this happens because both the arrays are referencing same location, this is called as derefercing
@@ -13,7 +13,7 @@ console.log(arr2);
 // to solution to this problem is Spred Operator
 var arr3 = [...arr1];
 arr3.push(5);
-// because we have used here Spread Operator therefor arr1 will not get changed 
+// we have used here Spread Operator therefor arr1 will not get changed 
 console.log(arr1);
 console.log(arr3);
 

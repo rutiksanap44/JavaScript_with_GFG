@@ -20,3 +20,5 @@ function fun2(){
 };
 
 fun2()();
+
+// if function is taking function as an argument and returning the function then it is called as a higher order function
