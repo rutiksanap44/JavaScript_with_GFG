@@ -5,7 +5,7 @@ Obj.name = "Ronak";
 console.log(Obj);
 
 // key and value pairs
-
+// number as a key can be assigned with only single qoutes
 Obj = {
     name : "Ronak",
     age : 44,

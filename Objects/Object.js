@@ -10,5 +10,5 @@ const Obj = {
 const fun = Obj.greetings;
 console.log(fun());
 
-const bye = Obj.bye();
-console.log(bye);
+const bye = Obj.bye;
+console.log(bye());
