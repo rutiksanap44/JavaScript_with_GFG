@@ -1,0 +1,27 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: auto;
+    width: 8%;
+}
+button{
+    height: 100px;
+    width: 100px;
+    border: none;
+    margin : 50px;
+    background-color:coral;
+    border-radius: 10%;
+    color: white;
+    font-size: larger;
+};
+
+.new-color{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: red;
+    color:black;
+}

@@ -1,0 +1,22 @@
+body{
+    padding: 0;
+    background-color:grey;
+};
+.first{
+    background-color: aqua;
+    border: 2px solid white;
+    color:white;
+    font-size: larger;
+}
+#div{
+    margin: 20px;
+    border: 2px solid white;
+    color:white;
+    font-size: 50px;
+}
+#p{
+    margin: 20px;
+    border: 2px solid white;
+    color:white;
+    font-size: 50px;
+}

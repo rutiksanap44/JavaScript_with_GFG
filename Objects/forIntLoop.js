@@ -7,7 +7,7 @@ const Obj = {
 
 const isPropertyAvailable = "name" in Obj;
 
-console.log(isPropertyAvailable);
+console.log(isPropertyAvailable); // true
 
 // to print property and values of objects
 

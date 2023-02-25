@@ -27,12 +27,12 @@ const Obj = {
 
 // console.log(rest);
 
-// third way with changing the names(userd for shortening the names of object variables)
+// third way with changing the names(used for shortening the names of object variables)
 // let{name :username, courses: mycourses} = Obj;
 
 // console.log(username, mycourses);
 
-// fourth way to sestructure the nested objects
+// fourth way to destructure the nested objects
 // let{add: {city,state}} = Obj;
 // console.log(city, state);
 
